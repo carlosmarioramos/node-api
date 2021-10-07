@@ -1,8 +1,20 @@
 {
   "name": "node-api",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon src/index.js",
+    "start": "set NODE_ENV=production&& node src/index.js"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/carlosmarioramos/node-api",
   "author": "Carlos Ramos <carlosmarioramos34@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
