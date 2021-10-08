@@ -1,0 +1,7 @@
+CREATE TABLE roles (
+  `id` INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  `name` VARCHAR(25) UNIQUE NOT NULL,
+  `date` DATE DEFAULT NOW() NOT NULL
+);
+
+-- DROP table roles;
