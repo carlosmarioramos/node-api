@@ -1,7 +1,7 @@
 module.exports = {
   SERVER: {
-    HOST: 'myapp.com',
-    PORT: 80
+    HOST: '',
+    PORT: 8080
   },
 
   DB_HOST: '',
