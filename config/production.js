@@ -7,5 +7,7 @@ module.exports = {
   DB_HOST: '',
   DB_USER: 'root',
   DB_PASSWORD: '',
-  DB_NAME: 'node-api'
+  DB_NAME: 'node-api',
+  
+  JWT_SECRET: 'node-api'
 }
