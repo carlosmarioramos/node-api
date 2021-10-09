@@ -1,5 +1,9 @@
 GET http://localhost:5000 HTTP/1.1
 ###
+GET http://localhost:5000/profile HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJlbWFpbCI6Im1hcmlvcGVyZXpAZ21haWwuY29tIiwiaWRfcm9sZSI6Mn0sImlhdCI6MTYzMzc5MjI1NSwiZXhwIjoxNjM0Mzk3MDU1fQ.j6XJzCp91TPBaXUIfMTS2bPaRv7bLlI9SaQ_2SjNrDQ
+###
 POST http://localhost:5000/auth/signup HTTP/1.1
 Content-Type: application/json
 
